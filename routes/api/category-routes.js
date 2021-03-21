@@ -54,7 +54,7 @@ router.put('/:id', async (req, res) => {
       category_name: req.body.category_name,
     },
     {
-      // Gets the categories based on the isbn given in the request parameters
+      // Gets the categories based on the id given in the request parameters
       where: {
         id: req.params.id,
       },
